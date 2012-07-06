@@ -1,3 +1,5 @@
+ROOT = File.dirname(__FILE__)
+puts ROOT
 
 God.watch do |w|
   w.dir           = ROOT
